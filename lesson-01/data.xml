@@ -1,0 +1,20 @@
+<!-- 
+- Name: Nguyen Van A
+- Age: 20
+- Major: Computer Science
+- GPA: 3.7
+- Courses:
+    - Programming Fundamentals
+    - Data Structures
+    - Web Development
+ -->
+
+<name>Nguyen Van A</name>
+<age>20</age>
+<major>Computer Science</major>
+<gpa>3.7</gpa>
+<courses> 
+    <course>Programing Fudamentals</course>
+    <course>Data Structures</course>
+    <course>Web Development</course>
+</courses>
