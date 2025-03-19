@@ -1,0 +1,3 @@
+Username: bba_academy
+Password: a101_class_secret
+=> Basic auth token: Authorization: Basic YmJhX2FjYWRlbXk6YTEwMV9jbGFzc19zZWNyZXQ=
