@@ -1,0 +1,5 @@
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI3MDA4MGFhMy01NTYxLTRmNWItOWRhZS0yNGFiNTcwYjc0MjEiLCJlbWFpbCI6ImRvbWluaHBob25nMzA2QGdtYWlsLmNvbSIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc0MTY1NjExMSwiZXhwIjoxNzQxNzQyNTExfQ.OlvEGmuAqRETbigoscruOsxDmU0o3r-Tg1OaiNnvVbQ
+
+=> header = decode base64(eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9) = {"alg":"HS256","typ":"JWT"}
+=> body = decode base64(eyJzdWIiOiI3MDA4MGFhMy01NTYxLTRmNWItOWRhZS0yNGFiNTcwYjc0MjEiLCJlbWFpbCI6ImRvbWluaHBob25nMzA2QGdtYWlsLmNvbSIsInJvbGUiOiJjdXN0b21lciIsImlhdCI6MTc0MTY1NjExMSwiZX hwIjoxNzQxNzQyNTExfQ) = {"sub":"70080aa3-5561-4f5b-9dae-24ab570b7421","email":"dominhphong306@gmail.com","role":"customer","iat":1741656111,"exp":1741742511}
+=> signature = decode base64(OlvEGmuAqRETbigoscruOsxDmU0o3r-Tg1OaiNnvVbQ) = :[kn((:CM(޿SU
